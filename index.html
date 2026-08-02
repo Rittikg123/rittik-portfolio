@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rittik Gupta — Data, automation, analytics, and process improvement portfolio." />
+  <meta name="theme-color" content="#0a0f1d" />
+  <title>Rittik Gupta | Data & Automation Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="header" id="top">
+    <a class="brand" href="#top">RG<span>.</span></a>
+    <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a>
+      <a class="nav-cta" href="https://www.linkedin.com/in/rittikgupta" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> DATA • AUTOMATION • ANALYTICS</div>
+        <h1>I build systems that turn messy operational data into <em>useful decisions.</em></h1>
+        <p>I’m <strong>Rittik Gupta</strong>, a DTE Energy data professional focused on data pipelines, analytics, automation, process improvement, and business-ready reporting.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore projects</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/rittikgupta" target="_blank" rel="noopener">View LinkedIn ↗</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>$800K+</strong><span>credit allocation initiative</span></div>
+          <div><strong>10K+</strong><span>daily claim checks automated</span></div>
+          <div><strong>DTE Energy</strong><span>career experience</span></div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal delay-1">
+        <div class="photo-frame"><img src="assets/rittik-gupta.jpg" alt="Rittik Gupta" /></div>
+        <div class="float-card card-a"><small>Current focus</small><strong>Data Tech Process Analyst</strong></div>
+        <div class="float-card card-b"><span>●</span><div><small>Stack</small><strong>Python · SQL · Databricks</strong></div></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-hidden="true"><div>PYTHON <i>✦</i> SQL <i>✦</i> DATABRICKS <i>✦</i> POWER BI <i>✦</i> AUTOMATION <i>✦</i> ETL <i>✦</i> APIs <i>✦</i> PROCESS IMPROVEMENT <i>✦</i> PYTHON <i>✦</i> SQL <i>✦</i> DATABRICKS <i>✦</i> POWER BI <i>✦</i> AUTOMATION <i>✦</i> ETL <i>✦</i> APIs <i>✦</i> PROCESS IMPROVEMENT <i>✦</i></div></section>
+
+    <section class="shell split" id="about">
+      <div class="section-label reveal"><span>01</span><h2>About</h2></div>
+      <div class="about reveal delay-1">
+        <p class="lead">I like solving the operational problems that sit between <strong>business teams and technical systems.</strong></p>
+        <p>My work centers on taking manual, fragmented, or hard-to-trust processes and making them more reliable through data engineering, analytics, and automation. I build pipelines, validate data, create dashboards, connect enterprise systems, and design workflows people can actually use.</p>
+        <p>I graduated from the University of Michigan–Dearborn and have built my professional experience at DTE Energy.</p>
+      </div>
+    </section>
+
+    <section class="shell" id="experience">
+      <div class="section-label reveal"><span>02</span><h2>Experience</h2></div>
+      <div class="experience-panel reveal">
+        <div class="company-rail">
+          <button class="role-tab active" data-role="0"><span>01</span><div><strong>Data Tech Process Analyst</strong><small>DTE Energy · Current</small></div></button>
+          <button class="role-tab" data-role="1"><span>02</span><div><strong>Operations Analyst</strong><small>DTE Energy</small></div></button>
+          <button class="role-tab" data-role="2"><span>03</span><div><strong>Damage Claims & Regulatory Affairs Co-op</strong><small>DTE Energy</small></div></button>
+          <button class="role-tab" data-role="3"><span>04</span><div><strong>Customer Excellence Team Co-op</strong><small>DTE Energy</small></div></button>
+        </div>
+        <div class="role-detail" id="roleDetail"></div>
+      </div>
+    </section>
+
+    <section class="shell" id="projects">
+      <div class="projects-head reveal">
+        <div class="section-label"><span>03</span><h2>Projects</h2></div>
+        <p>Click a project to see what I built, the problem it addressed, and the tools involved.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="engineering">Data Engineering</button>
+        <button class="filter" data-filter="analytics">Analytics</button>
+        <button class="filter" data-filter="automation">Automation</button>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="shell split" id="skills">
+      <div class="section-label reveal"><span>04</span><h2>Skills</h2></div>
+      <div class="skill-cards reveal delay-1">
+        <article><span>01</span><h3>Data Engineering</h3><p>Python, SQL, Databricks, ETL, APIs, data integration, validation, scheduled jobs, temporary views, multi-source joins.</p></article>
+        <article><span>02</span><h3>Analytics</h3><p>Power BI, Excel, KPI reporting, operational scorecards, financial dashboards, data quality analysis, geospatial matching.</p></article>
+        <article><span>03</span><h3>Enterprise & Workflow</h3><p>SAP C4C, Smartsheet, PowerApps, SharePoint, CRM systems, Azure DevOps, Git, workflow automation.</p></article>
+        <article><span>04</span><h3>Business</h3><p>Process improvement, stakeholder communication, UAT, requirements translation, documentation, cross-functional delivery.</p></article>
+      </div>
+    </section>
+
+    <section class="shell split" id="education">
+      <div class="section-label reveal"><span>05</span><h2>Education</h2></div>
+      <div class="education reveal delay-1">
+        <div class="edu-mark">M</div><div><h3>University of Michigan–Dearborn</h3><p>Bachelor’s degree · 2021–2025</p><small>Detroit Metropolitan Area</small></div>
+      </div>
+    </section>
+
+    <section class="contact shell reveal">
+      <div><span class="eyebrow"><span></span> LET’S CONNECT</span><h2>Interested in data, automation, or solving a messy process?</h2></div>
+      <a class="btn light" href="https://www.linkedin.com/in/rittikgupta" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+    </section>
+  </main>
+
+  <footer class="shell"><a class="brand" href="#top">RG<span>.</span></a><p>© <span id="year"></span> Rittik Gupta</p><a href="#top">Back to top ↑</a></footer>
+
+  <dialog class="project-modal" id="projectModal"><button class="modal-close" aria-label="Close project">×</button><div id="modalContent"></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
